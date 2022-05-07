@@ -1,0 +1,48 @@
+
+
+
+.pie {
+    background-color: rgb(218, 188, 152);
+}
+
+.pie__block {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pie__picture {
+    display: flex;
+    align-items: center;
+    flex: 0 1 66.666%;
+    flex-wrap: wrap;
+}
+
+.pie__image__icon {
+    max-width: 176px;
+    padding: 90px 67px 88px 0;
+}
+
+.pie__title {
+    max-width: 460px;
+    font-size: 1.75rem;
+    font-weight: 600;
+    line-height: 50px;
+    padding-left: 67px;
+    padding-right: 124px;
+}
+
+.pie__achievements {
+    max-width: 480px;
+    display: flex;
+    justify-content: space-between;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    border-left: 1px solid black;
+   padding: 20px 0;
+}
+
+.pie__achievements__icon {
+    max-width: 150px;
+    padding-left: 70px;
+}

@@ -1,0 +1,64 @@
+
+
+.boost {
+    background-color: white;
+    padding: 154px 0 0 0;
+}
+
+.boost__section__title {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 60px;
+    margin: 154px 0 75px 0;
+}
+
+.boost__section {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 1 33.333%;
+    flex-wrap: wrap;
+}
+
+.boost__items__content {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 410px;
+    justify-content: baseline;
+    align-items: flex-start;
+}
+
+.managers_icon {
+    margin: 75px 0 49px 0;
+}
+
+.developers_icon {
+    margin: 92px 0 67px 0;
+}
+
+.translators_icon {
+    margin:84px 0 58px 0;
+}
+
+.boost__items__content__title {
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: black;
+    padding: 60px 0 35px 0;
+}
+
+.boost__items__description {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 30px;
+    color: black;
+    margin: 34px 0 25px 0;
+}
+
+.boost__items__description__link {
+    margin: 0 0 187px 0;
+}
+

@@ -1,0 +1,31 @@
+
+
+
+.btn {
+    min-width: 120px;
+    text-align: center;
+    padding: 12.5px 30px;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+
+.btn__white {
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    color: black;
+    margin-right: 10px;
+}
+
+.btn__orange {
+    background-color: rgba(255, 99, 54, 1);
+    color: white;
+    border: none;
+    margin-right: 0px;
+}
+
+.btn__black {
+    background-color: black;
+    color: white;
+}
+.btn__big {
+    padding: 22px 40px;
+}

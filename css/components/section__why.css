@@ -1,0 +1,31 @@
+
+
+.why {
+    background-color: rgb(255, 156, 125);
+}
+
+.why_block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0 160px 0;
+    text-align: center;
+}
+
+.why__title {
+    max-width: 800px;
+    font-size: 3.25rem;
+    font-weight: 600;
+    line-height: 75px;
+}
+
+.why__text {
+    display: inline-block;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 30px;
+    color: black;
+    margin: 30px 0 55px 0;
+}

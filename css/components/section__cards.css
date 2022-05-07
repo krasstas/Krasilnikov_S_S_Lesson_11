@@ -1,0 +1,84 @@
+
+
+.cards {
+    background-color: white;
+}
+
+.cards__section {
+    display: flex;
+    justify-content: space-between;
+    flex: 0 1 50%;
+    flex-wrap: wrap;
+}
+
+.cards__items__content {
+    display: flex;
+    flex-direction: column;
+    max-width: 492px;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 140px 0 0;
+}
+
+.cards__items__content__right {
+    margin: 0 0 0 140px;
+    max-width: 450px;
+}
+
+.cards__items__title {
+    font-size: 2.5rem;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+.cards__items__description {
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1rem;
+    line-height: 30px;
+    color: black;
+    margin: 30px 0;
+}
+
+.cards_btn {
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0;
+}
+
+.square {
+    display: flex;
+    flex: 0 1 632px;
+    min-height: 632px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252,246,223);
+    margin: 90px 0 160px 0;
+}
+
+.square__card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.square__card__project_app {
+    width: 350px;
+    height: 193px;
+}
+
+.square__card__icons_app {
+    width: 419px;
+    height: 281px;
+}
+
+.square__card__languages_app {
+    width: 440px;
+    height: 370px;
+}
+.square__card__json_app {
+    width: 504px;
+    height: 299px;
+}

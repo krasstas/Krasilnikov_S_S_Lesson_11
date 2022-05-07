@@ -1,0 +1,55 @@
+
+@import url(normalize.css);
+@import url(buttons.css);
+@import url(fonts.css);
+@import url(components/header.css);
+@import url(components/section__accelerate.css);
+@import url(components/section__tool.css);
+@import url(components/section__cards.css);
+@import url(components/section__what.css);
+@import url(components/section__boost.css);
+@import url(components/div__man.css);
+@import url(components/section__pie.css);
+@import url(components/section__integrate.css);
+@import url(components/section__why.css);
+@import url(components/section__cyclists.css);
+@import url(components/footer.css);
+
+
+html {
+    font-size: 20px;
+    font-family: GraphikLCG, Arial, Helvetica, sans-serif;
+}
+
+.site__wrapper {
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_content {
+    flex: 1 1 auto;
+}
+
+.container {
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+.title {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
