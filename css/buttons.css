@@ -2,6 +2,7 @@
 
 
 .btn {
+    display: inline-block;
     min-width: 120px;
     text-align: center;
     padding: 12.5px 30px;
@@ -12,7 +13,6 @@
 .btn__white {
     border: 1px solid rgba(0, 0, 0, 0.5);
     color: black;
-    margin-right: 10px;
 }
 
 .btn__orange {

@@ -13,6 +13,7 @@
 .accelerate__content {
     display: flex;
     flex-direction: column;
+    max-width: 40%;
     padding: 125px 0 137px 0px;
 }
 
@@ -22,7 +23,6 @@
 }
 
 .accelerate__title {
-    max-width: 550px;
     font-size: 3.25rem;
     font-weight: 600;
     line-height: 70px;
@@ -30,7 +30,6 @@
 }
 
 .accelerate__description {
-    max-width: 470px;
     padding: 25px 0;
     font-weight: 400;
     font-style: normal;
@@ -48,6 +47,7 @@
 
 .accelerate__btn__orange {
     padding: 20px 30px;
+    margin-right: 10px;
 }
 
 .demo_txt {
@@ -56,6 +56,7 @@
     font-style: normal;
     font-size: 0.75rem;
     line-height: 25px;
+    margin-top: 15px;
 }
 
 .demo_txt > p {
@@ -63,6 +64,6 @@
 }
 
 .accelerate__image {
-    max-width: 740px;
-    padding: 115px 24px 218px 0;
+    max-width: 100%;
+    padding: 115px 0 218px 0;
 }

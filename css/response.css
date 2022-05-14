@@ -1,0 +1,52 @@
+
+
+
+  @media only screen and (max-width: 768px) {
+
+    .accelerate__block {
+      flex-direction: column;
+      align-items: center;
+      padding: 0 10px;
+  }
+
+  .accelerate__content {
+    max-width: 100%;
+    padding: 25px 0;
+}
+
+    .accelerate__title {
+      font-size: 1.5rem;
+      font-weight: 600;
+      line-height: 2rem;
+      text-align: center;
+    } 
+    
+    .accelerate__description {
+      font-weight: 400;
+      font-style: normal;
+      font-size: 1rem;
+      line-height: 25px;
+      padding: 15px 0;
+  } 
+
+  .accelerate__description > p {
+    margin: 0;
+  }
+
+  .accelerate__buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+  .accelerate__btn__orange {
+    margin-right: 20px;
+}
+
+.accelerate__image {
+  max-width: 100%;
+  padding: 25px 0;
+  order: -1;
+}
+
+  }

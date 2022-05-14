@@ -14,12 +14,24 @@
 @import url(components/section__why.css);
 @import url(components/section__cyclists.css);
 @import url(components/footer.css);
+@import url(response.css);
 
 
 html {
     font-size: 20px;
     font-family: GraphikLCG, Arial, Helvetica, sans-serif;
 }
+
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
 
 .site__wrapper {
     min-height: 100%;
