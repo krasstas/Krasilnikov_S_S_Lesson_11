@@ -12,11 +12,6 @@
     padding: 100px 0;
 }
 
-.title {
-    margin: 0;
-    padding: 0;
-}
-
 .tool__title {
     max-width: 700px;
     font-style: normal;
@@ -47,3 +42,42 @@
 .companies_logo li:last-child {
     margin-right: 0px;    
 }
+
+@media only screen and (max-width: 768px) {
+
+    .tool_block {
+      padding: 20px 0;
+  }
+  
+  .tool__title {
+    max-width: 576px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 40px;
+  }
+  
+  .companies_logo {
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .companies_logo__items {
+    margin: 20px;
+    width: 150px;
+  }
+  
+  .companies_logo li {
+    margin-right: 0px;
+  }
+  
+  .companies_logo li:first-child {
+    margin-left: 20px;    
+  }
+  
+  .companies_logo li:last-child {
+    margin-right: 0px;    
+  }
+  
+  }
