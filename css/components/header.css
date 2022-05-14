@@ -2,7 +2,7 @@
 
 
 .header {
-    background-color: white;
+    background-color: rgb(187, 96, 96);
     border-bottom: 1px solid #CCCCCC;
 }
 
@@ -19,6 +19,12 @@
 
 .header_logo {
     margin-right:  51px;
+    width: 130px;
+}
+
+.header_burger_menu {
+    width: 30px;
+    display: none;
 }
 
 .header__menu {
