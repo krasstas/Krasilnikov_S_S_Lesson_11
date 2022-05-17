@@ -11,6 +11,7 @@
     font-weight: 600;
     line-height: 3rem;
     text-align: center;
+    margin-bottom: 80px;
 }
 
 .what__section {
@@ -18,7 +19,7 @@
     justify-content: space-between;
     flex: 0 1 33.333%;
     flex-wrap: wrap;
-    padding: 0 0 70px 0;
+    padding: 80px 0 30px 0;
 }
 
 .what__items__content {
@@ -51,5 +52,42 @@
 .what__items__description__link {
     color: black;
 }
+
+@media only screen and (max-width: 768px) {
+
+    .what {
+        background-color: rgb(255, 248, 228);
+        padding: 30px 10px 0 10px;
+    }
+    
+    .what__section__title {
+        display: block;
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+    
+    .what__section {
+        justify-content: space-evenly;
+    }
+
+}
+
+@media only screen and (max-width: 576px) {
+
+    .what__section {
+        padding: 30px 0 30px 0;
+    }
+
+    .what__items__content {
+        flex-basis: 500px;
+    }
+
+    .what__items__description {
+        max-width: 400px;
+        margin: 25px 0 25px 0;
+    }
+    
+}
+
 
 
