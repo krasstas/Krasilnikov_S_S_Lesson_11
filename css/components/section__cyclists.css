@@ -1,112 +1,140 @@
-
-
 .cyclists {
-    background-color: #EEEEEE;
-}
-
-.cyclists__title {
-    padding: 154px 0 0 0;
-}
-
-.cyclists__section__title {
-    display: block;
-    font-size: 2.5rem;
-    font-weight: 600;
-    line-height: 60px;
-    margin: 154px 0 75px 0;
+  background-color: #eeeeee;
 }
 
 .cyclists__section {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 92px 0 95px 0;
+  display: flex;
+  justify-content: space-between;
+  padding: 92px 0 95px 0;
 }
 
 .cyclists__enthusiasm {
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: flex-start;
-    flex: 0 1 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: flex-start;
+  flex: 0 1 30%;
 }
 
 .cyclists__enthusiasm__title {
-    font-weight: 600;
-    font-style: normal;
-    font-size: 2rem;
-    line-height: 2.5rem;
-    color: black;
-    padding: 60px 0 35px 0;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  color: black;
 }
 
 .cyclists__photo {
-    margin: 30px 0;
+  margin: 30px 0;
 }
 
 .cyclists__enthusiasm__description {
-    max-width: 290px;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1rem;
-    line-height: 30px;
-    color: black;
-    margin: 10px 0 15px 0;
+  max-width: 290px;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: black;
+  margin: 10px 0 15px 0;
 }
 
 .Read_more {
-    font-weight: 600;
-    text-decoration: none;
-    margin: 0;
+  font-weight: 600;
+  text-decoration: none;
+  margin: 0;
 }
 
 .cyclists__links {
-    padding-top: 5px;
-
+  padding-top: 5px;
+  margin-left: 20px;
 }
-  
-  ul {
-    margin: 0;
-    padding: 0px;
-    list-style: none;
-  }
-  
-  .cyclists__menu {
-    display: flex;
-    justify-content: flex-start;
-    gap: 35px;
-  }
-  
-  .cyclists__menu > li  {
-    flex-basis: 200px;
-    min-width: 180px;
-  }
-  
-  .cyclists__menu li > ul {
-    display: flex;
+
+ul {
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+}
+
+.cyclists__menu {
+  display: flex;
+  justify-content: flex-start;
+  gap: 35px;
+}
+
+.cyclists__menu > li {
+  flex-basis: 200px;
+  min-width: 180px;
+}
+
+.cyclists__menu li > ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.cyclists__menu > li > a {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: black;
+  margin-bottom: 21px;
+}
+
+.cyclists__menu > li > ul a {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 0.75rem;
+  color: black;
+  margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 769px) {
+  .cyclists__section {
     flex-direction: column;
+    gap: 20px;
+    padding: 30px 10px 30px 10px;
   }
-  
-  .cyclists__menu > li > a {
-    display: inline-block;
-    text-decoration: none;
-    font-weight: 600;
-    font-style: normal;
+
+  .cyclists__enthusiasm {
+    flex: 0 1 100%;
+  }
+
+  .cyclists__enthusiasm__description {
+    max-width: 100%;
+    font-weight: 400;
     font-size: 1rem;
     line-height: 1.25rem;
-    color: black;
-    margin-bottom: 21px;
-  }
-  
-  .cyclists__menu > li > ul a {
-    display: inline-block;
-    text-decoration: none;
-    font-weight: 400;
-    font-size: 0.75rem;
-    line-height: 0.75rem;
-    color: black;
-    margin-bottom: 15px;
+    margin: 10px 0 15px 0;
   }
 
+  .cyclists__photo {
+    margin: 30px 10px;
+  }
 
+  .cyclists__links {
+    border-top: 1px solid black;
+    padding-top: 30px;
+  }
 
+  .cyclists__menu {
+    gap: 20px;
+  }
+
+  .cyclists__menu > li {
+    flex-basis: 180px;
+    min-width: 150px;
+  }
+}
+
+@media only screen and (max-width: 577px) {
+  .specialised_logo {
+    min-width: 120px;
+  }
+  .cyclists__menu {
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+  }
+}

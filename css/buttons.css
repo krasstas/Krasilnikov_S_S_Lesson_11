@@ -2,12 +2,11 @@
 
 
 .btn {
-    display: inline-block;
-    min-width: 120px;
     text-align: center;
-    padding: 12.5px 30px;
     text-decoration: none;
+    font-weight: 600;
     font-size: 0.8rem;
+    line-height: 2.25rem;
 }
 
 .btn__white {
@@ -19,13 +18,9 @@
     background-color: rgba(255, 99, 54, 1);
     color: white;
     border: none;
-    margin-right: 0px;
 }
 
 .btn__black {
     background-color: black;
     color: white;
-}
-.btn__big {
-    padding: 22px 40px;
 }
