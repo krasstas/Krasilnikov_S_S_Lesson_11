@@ -44,7 +44,7 @@
 
 .cyclists__links {
   padding-top: 5px;
-  margin-left: 20px;
+  padding-left: 20px;
 }
 
 ul {
@@ -96,7 +96,7 @@ ul {
   }
 
   .cyclists__links {
-    margin-left: 0px;
+    padding-left: 10px;
   }
 
   .cyclists__menu {
