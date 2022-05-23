@@ -5,7 +5,7 @@
 .cyclists__section {
   display: flex;
   justify-content: space-between;
-  padding: 92px 0 95px 0;
+  padding: 92px 10px 95px 10px;
 }
 
 .cyclists__enthusiasm {
@@ -88,6 +88,21 @@ ul {
   line-height: 0.75rem;
   color: black;
   margin-bottom: 15px;
+}
+
+@media only screen and (max-width: 993px) {
+  .cyclists__section {
+    padding: 30px 10px 30px 10px;
+  }
+
+  .cyclists__menu {
+    gap: 10px;
+  }
+
+  .cyclists__menu > li {
+    flex-basis: 150px;
+    min-width: 120px;
+  }
 }
 
 @media only screen and (max-width: 769px) {

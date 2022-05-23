@@ -7,11 +7,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 120px 0 160px 0;
+  padding: 120px 10px 160px 10px;
   text-align: center;
 }
 
 .why__title {
+  display: inline-block;
   max-width: 800px;
   font-size: 3.25rem;
   font-weight: 600;

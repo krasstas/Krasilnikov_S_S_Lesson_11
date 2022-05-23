@@ -9,7 +9,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 100px 0;
+    padding: 100px 10px;
 }
 
 .tool__title {
@@ -24,7 +24,7 @@
 .companies_logo {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     list-style: none;
     margin-top: 70px;
@@ -34,12 +34,15 @@
     margin-right: 90px;
 }
 
-.companies_logo li:first-child {
-    margin-left: -40px;    
-}
-
 .companies_logo li:last-child {
     margin-right: 0px;    
+}
+
+@media only screen and (max-width: 1001px) {
+  
+.companies_logo__items {
+  margin-right: 60px;
+}
 }
 
 @media only screen and (max-width: 768px) {
@@ -55,7 +58,7 @@
   }
   
   .companies_logo {
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     margin-top: 20px;
   }
