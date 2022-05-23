@@ -95,6 +95,10 @@ ul {
     padding: 30px 10px 30px 10px;
   }
 
+  .cyclists__links {
+    margin-left: 0px;
+  }
+
   .cyclists__menu {
     gap: 10px;
   }
@@ -132,15 +136,6 @@ ul {
     border-top: 1px solid black;
     padding-top: 30px;
   }
-
-  .cyclists__menu {
-    gap: 20px;
-  }
-
-  .cyclists__menu > li {
-    flex-basis: 180px;
-    min-width: 150px;
-  }
 }
 
 @media only screen and (max-width: 577px) {
@@ -151,5 +146,10 @@ ul {
     flex-wrap: wrap;
     justify-content: space-evenly;
     gap: 20px;
+  }
+
+  .cyclists__menu > li {
+    flex-basis: 180px;
+    min-width: 150px;
   }
 }
